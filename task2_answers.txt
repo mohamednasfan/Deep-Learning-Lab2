@@ -1,0 +1,5 @@
+Q1: What happens as hidden nodes increase?
+Small counts (1–2) underfit the data. Medium counts (3–5) capture the underlying decision boundary cleanly. Very large counts (20–50) increase complexity, overfit noise in the data, and take longer to run.
+
+Q2: Explain the accuracy pattern.
+Accuracy starts low due to limited model capacity, increases sharply around 3–5 hidden units as capacity matches dataset complexity, and plateaus near 100% at 20–50 units where high capacity risks overfitting.
